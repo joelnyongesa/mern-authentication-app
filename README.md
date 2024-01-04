@@ -4,7 +4,7 @@ This is a simple application to demonstrate authentication in a MERN aopplicatio
 
 ## Getting Started
 
-Before getting started, this project needs you to have node JS and MongoDB installed. Head over to [Node JS](https:www.nodejs.org/en/download) to download and install Node, and to [MngoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/) to install MongoDB. Once done, follow the steps below:
+Before getting started, this project needs you to have node JS and MongoDB installed. Head over to [Node JS](https:www.nodejs.org/en/download) to download and install Node, and to [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/) to install MongoDB. Once done, follow the steps below:
 
 1. To get started, fork and clone this reporitory. There are two parts of the application: `backend` and `frontend`.
 2. Make sure you have MongoDB server running in the background. To do this, open a terminal instance and type in `sudo systemctl start mongod`.
