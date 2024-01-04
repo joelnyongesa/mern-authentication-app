@@ -7,7 +7,6 @@ import { useToken } from '../auth/useToken';
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
 
     const [token, setToken] = useToken();
 
@@ -37,7 +36,7 @@ function Login() {
             className='border rounded p-1 my-2'
         />
         <input 
-            ype='password' 
+            type='password' 
             placeholder='Password' 
             value={password} 
             onChange={(e)=> setPassword(e.target.value)}
@@ -49,7 +48,7 @@ function Login() {
         <button 
             type='submit' 
             disabled={!email || !password}
-            className='hover:cursor-pointer hover:bg-black hover:text-white px-2 py-1 rounded-md border'
+            className='hover:cursor-pointer hover:bg-black hover:text-white px-2 py-1 rounded-md border my-2'
             onClick={handleLogIn}
         >Log In</button>
         <button 
