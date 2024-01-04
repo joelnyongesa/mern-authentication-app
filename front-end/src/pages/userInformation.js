@@ -24,7 +24,7 @@ export const UserInfoPage = () => {
             <h1> Information for { email }</h1>
             <p> Welcome, { email }</p>
 
-            <button> Log Out </button>
+            <button onClick={logOut}> Log Out </button>
         </div>
     )
 }
